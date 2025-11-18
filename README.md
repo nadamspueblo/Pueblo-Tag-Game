@@ -19,7 +19,7 @@ Follow these steps every time you work on the project. This workflow uses the So
     - [ ] In the **Project** window, navigate to ```Assets/Scenes/```.
     - [ ] Open the main ```GameScene```.
 
-3. 🛑 CRITICAL: "Check Out" Your Slide  
+3. 🛑 CRITICAL: "Check Out" Your Subscene  
 *You must tell Unity which specific file you are editing so you don't overwrite the main game file.*
     - [ ] In the Hierarchy, find your assigned SubScene (e.g., ```Level_MainBuilding```, ```Level_Terrain```).
     - [ ] Tick the Checkbox next to your SubScene's name. The tooltip should say "Toggle whether the Sub Scene is open for editing".
