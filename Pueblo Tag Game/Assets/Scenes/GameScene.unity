@@ -1089,7 +1089,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6f74760658f108c43974dc393cb7ec92, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Unity.Template.CompetitiveActionMultiplayer::VisualsLoader
-  visualSceneName: Level_Terrain_Visuals
+  scenesToLoad:
+  - Level_Terrain_Visuals
+  - Level_UI
 --- !u!4 &1921209658
 Transform:
   m_ObjectHideFlags: 0

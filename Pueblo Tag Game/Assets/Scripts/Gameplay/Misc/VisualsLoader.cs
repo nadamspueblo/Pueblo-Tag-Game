@@ -1,18 +1,24 @@
+using System.Collections.Generic; // Added for Lists
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
 public class VisualsLoader : MonoBehaviour
 {
-    [Tooltip("The name of the scene containing the Unity Terrain and decorative objects.")]
-    public string visualSceneName = "Level_Terrain_Visuals";
+    [Tooltip("List of standard scenes to load additively (UI, Terrain Visuals, etc.)")]
+    public List<string> scenesToLoad = new List<string>();
 
     void Start()
     {
-        // Only load if it's not already loaded (prevents duplicates in Editor)
-        Scene scene = SceneManager.GetSceneByName(visualSceneName);
-        if (!scene.isLoaded)
+        foreach (var sceneName in scenesToLoad)
         {
-            SceneManager.LoadSceneAsync(visualSceneName, LoadSceneMode.Additive);
+            if (string.IsNullOrEmpty(sceneName)) continue;
+
+            // Only load if it's not already loaded
+            Scene scene = SceneManager.GetSceneByName(sceneName);
+            if (!scene.isLoaded)
+            {
+                SceneManager.LoadSceneAsync(sceneName, LoadSceneMode.Additive);
+            }
         }
     }
 }
