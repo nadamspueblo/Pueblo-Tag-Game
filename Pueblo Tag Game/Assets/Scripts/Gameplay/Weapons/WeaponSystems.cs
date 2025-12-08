@@ -273,7 +273,7 @@ namespace Unity.Template.CompetitiveActionMultiplayer
                         {
                             if (HealthLookup.TryGetComponent(hitEntity, out Health health))
                             {
-                                health.CurrentHealth -= raycastProjectile.Damage;
+                                health.CurrentHealth += raycastProjectile.Damage;
                                 HealthLookup[hitEntity] = health;
                             }
                         }

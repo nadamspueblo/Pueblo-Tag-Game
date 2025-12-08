@@ -62,7 +62,7 @@ namespace Unity.Template.CompetitiveActionMultiplayer
                         // Direct hit damage
                         if (HealthLookup.TryGetComponent(projectile.HitEntity, out Health health))
                         {
-                            health.CurrentHealth -= rocketShotVisual.DirectHitDamage;
+                            health.CurrentHealth += rocketShotVisual.DirectHitDamage;
                             HealthLookup[projectile.HitEntity] = health;
                         }
 
@@ -78,7 +78,7 @@ namespace Unity.Template.CompetitiveActionMultiplayer
                                 {
                                     var damageWithFalloff = rocketShotVisual.MaxRadiusDamage *
                                                             (1f - math.saturate(hit.Distance / rocketShotVisual.DamageRadius));
-                                    health2.CurrentHealth -= damageWithFalloff;
+                                    health2.CurrentHealth += damageWithFalloff;
                                     HealthLookup[hit.Entity] = health2;
                                 }
                             }

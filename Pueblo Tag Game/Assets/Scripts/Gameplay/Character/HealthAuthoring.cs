@@ -16,7 +16,7 @@ namespace Unity.Template.CompetitiveActionMultiplayer
                 AddComponent(entity, new Health
                 {
                     MaxHealth = authoring.MaxHealth,
-                    CurrentHealth = authoring.MaxHealth,
+                    CurrentHealth = 0, // Changed from authoring.MaxHealth, to represent getting wetter
                 });
             }
         }
@@ -31,7 +31,7 @@ namespace Unity.Template.CompetitiveActionMultiplayer
 
         public readonly bool IsDead()
         {
-            return CurrentHealth <= 0f;
+            return CurrentHealth >= 100f;
         }
     }
 }

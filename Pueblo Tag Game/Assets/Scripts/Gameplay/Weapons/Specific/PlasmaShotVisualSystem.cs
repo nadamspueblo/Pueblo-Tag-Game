@@ -45,7 +45,7 @@ namespace Unity.Template.CompetitiveActionMultiplayer
                     // Direct hit damage
                     if (HealthLookup.TryGetComponent(projectile.HitEntity, out Health health))
                     {
-                        health.CurrentHealth -= bullet.Damage;
+                        health.CurrentHealth += bullet.Damage;
                         HealthLookup[projectile.HitEntity] = health;
                     }
 
