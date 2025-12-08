@@ -145,6 +145,7 @@ PlayerSettings:
   preloadedAssets:
   - {fileID: 11400000, guid: 3037ed85607368f4a9b0a84446fd430f, type: 2}
   - {fileID: -944628639613478452, guid: aee9dce073393be49bfc1eddaf413a79, type: 3}
+  - {fileID: 11400000, guid: 655b5287739826343be6bce4d46b53e5, type: 2}
   metroInputSource: 0
   wsaTransparentSwapchain: 0
   m_HolographicPauseOnTrackingLoss: 1
@@ -894,8 +895,8 @@ PlayerSettings:
   editorAssembliesCompatibilityLevel: 1
   m_RenderingPath: 1
   m_MobileRenderingPath: 1
-  metroPackageName: Pueblo Tag Game
-  metroPackageVersion: 
+  metroPackageName: PuebloTagGame
+  metroPackageVersion: 1.0.0.0
   metroCertificatePath: 
   metroCertificatePassword: 
   metroCertificateSubject: 
@@ -903,7 +904,7 @@ PlayerSettings:
   metroCertificateNotAfter: 0000000000000000
   metroApplicationDescription: Pueblo Tag Game
   wsaImages: {}
-  metroTileShortName: 
+  metroTileShortName: Pueblo Tag Game
   metroTileShowName: 0
   metroMediumTileShowName: 0
   metroLargeTileShowName: 0

@@ -17,6 +17,9 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Level_Terrain_Visuals.unity
     guid: b24b4bb66e3f44e4794d2ec0979a270f
+  - enabled: 1
+    path: Assets/Scenes/Level_UI.unity
+    guid: 8e2040839e1824cb9a40752eb39cdcee
   m_configObjects:
     com.unity.input.settings: {fileID: 11400000, guid: 3037ed85607368f4a9b0a84446fd430f, type: 2}
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: aee9dce073393be49bfc1eddaf413a79, type: 3}

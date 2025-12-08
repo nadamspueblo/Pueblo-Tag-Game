@@ -188,6 +188,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Unity.Template.CompetitiveActionMultiplayer::Unity.Template.CompetitiveActionMultiplayer.HealthBar
   hudDocument: {fileID: 802629992}
+  debugMode: 0
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
