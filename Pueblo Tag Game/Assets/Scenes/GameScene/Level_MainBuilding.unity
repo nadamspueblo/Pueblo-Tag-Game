@@ -9345,6 +9345,7 @@ Transform:
   - {fileID: 200085172}
   - {fileID: 950633795}
   - {fileID: 970846945}
+  - {fileID: 1309018555}
   - {fileID: 1856478558324179081}
   m_Father: {fileID: 281944434}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -25394,7 +25395,7 @@ GameObject:
   - component: {fileID: 1115525005}
   - component: {fileID: 1115525004}
   m_Layer: 0
-  m_Name: brickMid (1)
+  m_Name: Window
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -25409,7 +25410,7 @@ Transform:
   m_GameObject: {fileID: 1115525002}
   serializedVersion: 2
   m_LocalRotation: {x: -0.70710677, y: 0, z: 0, w: 0.70710677}
-  m_LocalPosition: {x: -0.32500002, y: 0.0299, z: 0.9454}
+  m_LocalPosition: {x: -0.32500002, y: 0.0299, z: 0.945}
   m_LocalScale: {x: 0.025, y: 0.025, z: 0.025}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -28768,6 +28769,37 @@ Transform:
   - {fileID: 754998746}
   - {fileID: 1739209306}
   m_Father: {fileID: 720551531}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1309018554
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1309018555}
+  m_Layer: 0
+  m_Name: GameObject
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1309018555
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1309018554}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 504531154}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1343029660
 GameObject:
