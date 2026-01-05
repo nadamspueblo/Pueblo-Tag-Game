@@ -5246,8 +5246,8 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 0.5130074, y: 2.0384889, z: 0.46027938}
-  m_Center: {x: -0.014967342, y: 0.9568049, z: -0.0027174826}
+  m_Size: {x: 0.51300734, y: 3.0164032, z: 0.46027938}
+  m_Center: {x: -0.014967342, y: 1.4457624, z: -0.0027174826}
 --- !u!43 &168773951
 Mesh:
   m_ObjectHideFlags: 32
@@ -7194,8 +7194,8 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 0.54733324, y: 2.6620066, z: 0.37308025}
-  m_Center: {x: 0.018531948, y: 0.83100444, z: -0.08143188}
+  m_Size: {x: 0.54733324, y: 4.512618, z: 0.37308025}
+  m_Center: {x: 0.018531948, y: 1.7563128, z: -0.08143188}
 --- !u!43 &281556642
 Mesh:
   m_ObjectHideFlags: 32
@@ -8863,8 +8863,8 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 0.56910306, y: 3.4630206, z: 0.67910045}
-  m_Center: {x: -0.0074202274, y: 1.2315105, z: 0.16044953}
+  m_Size: {x: 0.56910306, y: 5.1878505, z: 0.67910045}
+  m_Center: {x: -0.0074202274, y: 2.0939267, z: 0.16044953}
 --- !u!1 &300845492
 GameObject:
   m_ObjectHideFlags: 0
@@ -33673,7 +33673,7 @@ MeshCollider:
   serializedVersion: 5
   m_Convex: 0
   m_CookingOptions: 30
-  m_Mesh: {fileID: 820875642}
+  m_Mesh: {fileID: 86252097}
 --- !u!33 &750407841
 MeshFilter:
   m_ObjectHideFlags: 10
@@ -68225,8 +68225,8 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 0.5082565, y: 2.9699998, z: 0.39}
-  m_Center: {x: -0.035871696, y: 1.0523088, z: 0.0000000011227378}
+  m_Size: {x: 0.5082565, y: 5.351629, z: 0.39}
+  m_Center: {x: -0.035871696, y: 2.2431233, z: 0.0000000011227378}
 --- !u!43 &1884765344
 Mesh:
   m_ObjectHideFlags: 32
@@ -69001,8 +69001,8 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 0.5850067, y: 2.8451574, z: 0.5804291}
-  m_Center: {x: 0.008049011, y: 1.4600555, z: 0.0011062622}
+  m_Size: {x: 0.5850067, y: 4.78917, z: 0.5804291}
+  m_Center: {x: 0.008049011, y: 2.432062, z: 0.0011062622}
 --- !u!43 &1934943283
 Mesh:
   m_ObjectHideFlags: 0
